@@ -68,4 +68,6 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: git@github.com:winkidney/winkidney.github.io.git
+  branch: gh-pages
